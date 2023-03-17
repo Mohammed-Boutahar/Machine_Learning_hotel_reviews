@@ -64,15 +64,14 @@ def last_page(url):
 
 # url1 = "https://www.tripadvisor.com/Hotel_Review-g186338-d282814-Reviews-Abercorn_House-London_England.html"
 # url2 = "https://www.tripadvisor.com/Hotel_Review-g60763-d1181739-Reviews-The_Jane_Hotel-New_York_City_New_York.html"
-# url3 = "https://www.tripadvisor.com/Hotel_Review-g60763-d122005-Reviews-The_New_Yorker_A_Wyndham_Hotel-New_York_City_New_York.html"
-# url4 = "https://www.tripadvisor.com/Hotel_Review-g60763-d93627-Reviews-West_Side_YMCA-New_York_City_New_York.html"
-# url5 = "https://www.tripadvisor.com/Hotel_Review-g60763-d7182733-Reviews-The_Paul_Hotel_NYC-New_York_City_New_York.html"
-# url6 = "https://www.tripadvisor.com/Hotel_Review-g60763-d671150-Reviews-The_Empire_Hotel-New_York_City_New_York.html"
-#url7 = "https://www.tripadvisor.com/Hotel_Review-g60763-d142114-Reviews-Night_Hotel_Broadway-New_York_City_New_York.html"
-#url9 = "https://www.tripadvisor.com/Attraction_Review-g187265-d195466-Reviews-Vieux_Lyon-Lyon_Rhone_Auvergne_Rhone_Alpes.html"
-#url8 = "https://www.tripadvisor.com/Hotel_Review-g293734-d1873436-Reviews-Riad_Kheirredine-Marrakech_Marrakech_Safi.html"
+url3 = "https://www.tripadvisor.com/Hotel_Review-g60763-d122005-Reviews-The_New_Yorker_A_Wyndham_Hotel-New_York_City_New_York.html"
+url4 = "https://www.tripadvisor.com/Hotel_Review-g60763-d93627-Reviews-West_Side_YMCA-New_York_City_New_York.html"
+url5 = "https://www.tripadvisor.com/Hotel_Review-g60763-d7182733-Reviews-The_Paul_Hotel_NYC-New_York_City_New_York.html"
+url6 = "https://www.tripadvisor.com/Hotel_Review-g60763-d671150-Reviews-The_Empire_Hotel-New_York_City_New_York.html"
+url7 = "https://www.tripadvisor.com/Hotel_Review-g60763-d142114-Reviews-Night_Hotel_Broadway-New_York_City_New_York.html"
+url8 = "https://www.tripadvisor.com/Hotel_Review-g293734-d1873436-Reviews-Riad_Kheirredine-Marrakech_Marrakech_Safi.html"
 
-urls = []
+urls = [url3,url4,url5,url6,url7,url8]
 
 for url_origin in urls:
     
