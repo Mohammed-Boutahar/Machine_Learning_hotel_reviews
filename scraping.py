@@ -75,9 +75,8 @@ def last_page(url):
 #url7 = "https://www.tripadvisor.com/Hotel_Review-g60763-d142114-Reviews-Night_Hotel_Broadway-New_York_City_New_York.html"
 #url9 = "https://www.tripadvisor.com/Attraction_Review-g187265-d195466-Reviews-Vieux_Lyon-Lyon_Rhone_Auvergne_Rhone_Alpes.html"
 #url8 = "https://www.tripadvisor.com/Hotel_Review-g293734-d1873436-Reviews-Riad_Kheirredine-Marrakech_Marrakech_Safi.html"
-url10="https://www.tripadvisor.fr/Hotel_Review-g187147-d197424-Reviews-Novotel_Paris_Les_Halles-Paris_Ile_de_France.html"
 
-urls = [url10]
+urls = []
 
 for url_origin in urls:
     
