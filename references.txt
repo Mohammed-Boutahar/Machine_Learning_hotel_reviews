@@ -1,1 +1,2 @@
 Kaggle : https://www.kaggle.com/datasets/andrewmvd/trip-advisor-hotel-reviews/code?resource=download
+remove some caracteres : https://stackoverflow.com/questions/33404752/removing-emojis-from-a-string-in-python
