@@ -9,7 +9,7 @@ header = ["Review", "Rating"]
 data = open(r'all_reviews.csv', 'w', encoding="utf-8", newline="")
 
 
-writer = csv.writer(data)
+writer = csv.writer(data, delimiter =';')
 writer.writerow(header)
 
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.65 Safari/537.36'}
@@ -28,12 +28,8 @@ def scrap_data(url):
         review = data_review.find('q', {'class': 'QewHA H4 _a'})
         rating = data_review.find('div', {'class': 'Hlmiy F1'})
         rating_value = rating.find('span').attrs['class'][1][7]
-        #if (int(rating_value) < 3):
         row = [review.find('span').text.strip(), rating_value]
         writer.writerow(row)
-
-        # else:
-        #     continue
 
 
 def number_reviews(url):
