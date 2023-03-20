@@ -1,0 +1,6 @@
+Kaggle : https://www.kaggle.com/datasets/andrewmvd/trip-advisor-hotel-reviews/code?resource=download
+remove some caracteres : https://stackoverflow.com/questions/33404752/removing-emojis-from-a-string-in-python
+confusion matrix : https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
+display confusion matrix : https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_display_object_visualization.html#sphx-glr-auto-examples-miscellaneous-plot-display-object-visualization-py
+Random Forest : https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+Decision Tree : 
