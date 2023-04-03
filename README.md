@@ -5,4 +5,4 @@ scraping.py
 
 
 <h3>Traning Process : </h3>
-Sentiment Analysis.
+Sentiment Analysis.ipynb
