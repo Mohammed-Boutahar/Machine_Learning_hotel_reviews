@@ -94,6 +94,3 @@ for url_origin in urls:
         cmp += number_reviews(url)
         url = re.sub(r'(Reviews-)', "or" + str(cmp) + "-", url_origin)
         scrap_data(url)
-
-
-
